@@ -1,6 +1,6 @@
 # easy-get-request-with-headers
 
-Simple HTTP POST requester that accepts headers.
+Simple HTTP GET requester that accepts headers.
 
 ## Example of use
 
@@ -12,9 +12,9 @@ After install:
 
 ```js
 
-    const post = require('easy-get-request-with-headers');
+    const get = require('easy-get-request-with-headers');
 
-    post('http://someurl',{'label':'someValue'},{someParameter:'someValue'})
+    get('http://someurl',{'label':'someValue'},{someParameter:'someValue'})
         .then((body) => {
             console.log(body);
         })
