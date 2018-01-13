@@ -1,0 +1,32 @@
+{
+  "name": "easy-post-request-with-headers",
+  "version": "1.0.1",
+  "description": "Simple HTTP POST requester that accepts headers, a fork that adds headers to the original package",
+  "main": "index.js",
+  "scripts": {
+    "test": "istanbul cover _mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SlimBN/easy-request.git"
+  },
+  "keywords": [
+    "nodejs",
+    "es6",
+    "node",
+    "http",
+    "request"
+  ],
+  "author": "Slim Ben Nasrallah",
+  "license": "GPL-3.0",
+  "homepage": "https://github.com/SlimBN/easy-request#readme",
+  "dependencies": {
+    "q": "^1.5.0",
+    "request": "^2.81.0"
+  },
+  "devDependencies": {
+    "chai": "^4.0.2",
+    "istanbul": "^0.4.5",
+    "mocha": "^3.4.2"
+  }
+}
